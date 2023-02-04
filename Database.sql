@@ -46,3 +46,5 @@ set type='profession'
 where FirstName='Kriya'
 
 select COUNT(type) from AddressBook
+
+insert into AddressBook values('Dhanashri','Patil','51 street','Mumbai','MH','369852','9456863255','dhanashri@gmail.com','friend')
