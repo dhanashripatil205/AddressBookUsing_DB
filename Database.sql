@@ -1,1 +1,2 @@
 create database AddressBookService
+create table AddressBook
