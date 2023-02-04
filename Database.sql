@@ -26,3 +26,6 @@ where FirstName='Kriti'
 
 select * from AddressBook
 where City='Mumbai' or State='MH'
+
+select COUNT(City) from AddressBook
+select COUNT(State) from AddressBook
