@@ -29,3 +29,5 @@ where City='Mumbai' or State='MH'
 
 select COUNT(City) from AddressBook
 select COUNT(State) from AddressBook
+
+select * from AddressBook order by FirstName asc
