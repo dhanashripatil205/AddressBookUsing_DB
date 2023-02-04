@@ -15,3 +15,7 @@ insert into AddressBook values('Dhanshri','Patil','51 street','Mumbai','MH','369
 insert into AddressBook values('Kriya','Sawant','52 area','banglore','MH','789654','6598763255','kriya@gmail.com')
 insert into AddressBook values('Kriti','Sawant','639','Pune','MH','236598','95683256988','kriti@gmail.com')
 insert into AddressBook values('Ganesh','patil','369 street','Hydrabad','MH','158963','9402569855','ganesh@gmail.com')
+
+update AddressBook
+set State='MH'
+where FirstName='Dhanshri'
