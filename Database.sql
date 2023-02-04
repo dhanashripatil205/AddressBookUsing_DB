@@ -19,3 +19,7 @@ insert into AddressBook values('Ganesh','patil','369 street','Hydrabad','MH','15
 update AddressBook
 set State='MH'
 where FirstName='Dhanshri'
+
+
+delete from AddressBook
+where FirstName='Kriti'
