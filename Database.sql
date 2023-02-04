@@ -48,3 +48,36 @@ where FirstName='Kriya'
 select COUNT(type) from AddressBook
 
 insert into AddressBook values('Dhanashri','Patil','51 street','Mumbai','MH','369852','9456863255','dhanashri@gmail.com','friend')
+
+create table FNameAndType
+(
+FirstName varchar(255),
+Type varchar(255),
+)
+insert into FNameAndType values('Dhanashri','profession')
+insert into FNameAndType values('Kriti','friend')
+insert into FNameAndType values('Kriya','family')
+insert into FNameAndType values('Ganesh','friend')
+
+create table person
+(
+FirstName varchar(255),
+LastName varchar(255),
+PhoneNum varchar(255),
+Email varchar(255)
+)
+insert into person values('Dhanshri','Patil''9456863255','dhanashri@gmail.com')
+insert into person values('Kriya','Sawant','6598763255','kriya@gmail.com')
+insert into person values('Kriti','Sawant','95683256988','kriti@gmail.com')
+
+create table Addressdata
+(
+FirstName varchar(255),
+Address varchar(255),
+City varchar(255),
+State varchar(255),
+zip varchar(255),
+)
+insert into Addressdata values('Dhanshri','Patil','51 street','Mumbai','MH','369852')
+insert into Addressdata values('Kriya','Sawant','52 area','banglore','MH','789654')
+insert into Addressdata values('Kriti','Sawant','639','Pune','MH','236598')
