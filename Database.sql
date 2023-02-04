@@ -31,3 +31,16 @@ select COUNT(City) from AddressBook
 select COUNT(State) from AddressBook
 
 select * from AddressBook order by FirstName asc
+
+Alter table AddressBook
+ add Type varchar(255)
+ select * from AddressBook
+ update AddressBook
+set type='friend'
+where FirstName='Dhanashri'
+update AddressBook
+set type='family'
+where FirstName='Kriti'
+update AddressBook
+set type='profession'
+where FirstName='Kriya'
