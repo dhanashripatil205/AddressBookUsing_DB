@@ -44,3 +44,5 @@ where FirstName='Kriti'
 update AddressBook
 set type='profession'
 where FirstName='Kriya'
+
+select COUNT(type) from AddressBook
